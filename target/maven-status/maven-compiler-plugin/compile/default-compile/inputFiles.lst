@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\haabl\Documents\capacitacion\capacitacion\capacitacion\src\main\java\cr\sysco\service\UsuarioService.java
 C:\Users\haabl\Documents\capacitacion\capacitacion\capacitacion\src\main\java\cr\sysco\controller\UsuarioController.java
 C:\Users\haabl\Documents\capacitacion\capacitacion\capacitacion\src\main\java\cr\sysco\SpringBootJpaApplication.java
@@ -7,3 +8,12 @@ C:\Users\haabl\Documents\capacitacion\capacitacion\capacitacion\src\main\java\cr
 C:\Users\haabl\Documents\capacitacion\capacitacion\capacitacion\src\main\java\cr\sysco\service\ReservacionService.java
 C:\Users\haabl\Documents\capacitacion\capacitacion\capacitacion\src\main\java\cr\sysco\repository\UsuarioRepository.java
 C:\Users\haabl\Documents\capacitacion\capacitacion\capacitacion\src\main\java\cr\sysco\model\Reservacion.java
+=======
+E:\SYSCO\capacitacion\spring-boot\capacitacion\src\main\java\cr\sysco\service\UsuarioService.java
+E:\SYSCO\capacitacion\spring-boot\capacitacion\src\main\java\cr\sysco\repository\RolRepository.java
+E:\SYSCO\capacitacion\spring-boot\capacitacion\src\main\java\cr\sysco\SpringBootJpaApplication.java
+E:\SYSCO\capacitacion\spring-boot\capacitacion\src\main\java\cr\sysco\repository\UsuarioRepository.java
+E:\SYSCO\capacitacion\spring-boot\capacitacion\src\main\java\cr\sysco\controller\UsuarioController.java
+E:\SYSCO\capacitacion\spring-boot\capacitacion\src\main\java\cr\sysco\model\Usuario.java
+E:\SYSCO\capacitacion\spring-boot\capacitacion\src\main\java\cr\sysco\model\Rol.java
+>>>>>>> fb216faf8e7c5228bc454dcc426fe46d385014d3
