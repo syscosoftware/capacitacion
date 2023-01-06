@@ -1,0 +1,5 @@
+cr\sysco\repository\UsuarioRepository.class
+cr\sysco\model\Usuario.class
+cr\sysco\SpringBootJpaApplication.class
+cr\sysco\controller\UsuarioController.class
+cr\sysco\service\UsuarioService.class

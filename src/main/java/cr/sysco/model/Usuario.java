@@ -28,7 +28,7 @@ public class Usuario implements Serializable {
 	@Column(name = "CODIGO")
 	private Integer id;
   
-    @Column(name = "NOMBRE")
+    @Column(name = "NOMBRE_USUARIO")
 	private String nombre;
  
     @Column(name = "NUMERO_TELEFONO")
