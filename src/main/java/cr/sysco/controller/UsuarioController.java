@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -78,6 +79,17 @@ public class UsuarioController {
         //respuesta.put("result",lista ); 
 
          respuesta.put("result", usuarioService.listar()); 
+        respuesta.put("estado", HttpStatus.OK);
+
+        return new ResponseEntity<Map<String, Object>>(respuesta, new HttpHeaders(), HttpStatus.OK);
+    }
+
+    @DeleteMapping("/usuario/eliminar/{id}")
+    public ResponseEntity<Map<String, Object>> eliminar(@PathVariable(value = "id") Integer id) {
+
+        Map<String, Object> respuesta = new HashMap<String, Object>(); 
+           
+        respuesta.put("result", usuarioService.eliminar(id)); 
         respuesta.put("estado", HttpStatus.OK);
 
         return new ResponseEntity<Map<String, Object>>(respuesta, new HttpHeaders(), HttpStatus.OK);

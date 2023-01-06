@@ -6,19 +6,37 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import cr.sysco.model.Rol;
 import cr.sysco.model.Usuario;
 import cr.sysco.repository.UsuarioRepository;
+import cr.sysco.repository.RolRepository;
 
 @Service
 public class UsuarioService {
     
     @Autowired
     private UsuarioRepository usuarioRepository;
+    @Autowired
+    private RolRepository rolRepository;
 
 
     public String insertar(Usuario usuario){
         try{
+
+
+            if(usuario.getRol() != null){
+                Optional<Rol> lista = this.rolRepository.findById(usuario.getRol().getId()); 
+                try{
+                    if(lista.get() == null){ 
+                        this.rolRepository.save(usuario.getRol());
+                    } 
+                }catch(Exception ex){
+                    this.rolRepository.save(usuario.getRol());
+                }
+            } 
+
             this.usuarioRepository.save(usuario);
+            
             return "success";
         }catch(Exception ex){
             ex.printStackTrace();
@@ -81,6 +99,16 @@ public class UsuarioService {
         }catch(Exception ex){
             ex.printStackTrace(); 
             return null;
+        } 
+    }
+
+    public String eliminar(Integer id){
+        try{
+             this.usuarioRepository.deleteById(id);
+            return "success";
+        }catch(Exception ex){
+            ex.printStackTrace(); 
+            return ex.getMessage();
         } 
     }
 

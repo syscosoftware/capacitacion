@@ -1,5 +1,7 @@
 E:\SYSCO\capacitacion\spring-boot\capacitacion\src\main\java\cr\sysco\service\UsuarioService.java
+E:\SYSCO\capacitacion\spring-boot\capacitacion\src\main\java\cr\sysco\repository\RolRepository.java
 E:\SYSCO\capacitacion\spring-boot\capacitacion\src\main\java\cr\sysco\SpringBootJpaApplication.java
 E:\SYSCO\capacitacion\spring-boot\capacitacion\src\main\java\cr\sysco\repository\UsuarioRepository.java
 E:\SYSCO\capacitacion\spring-boot\capacitacion\src\main\java\cr\sysco\controller\UsuarioController.java
 E:\SYSCO\capacitacion\spring-boot\capacitacion\src\main\java\cr\sysco\model\Usuario.java
+E:\SYSCO\capacitacion\spring-boot\capacitacion\src\main\java\cr\sysco\model\Rol.java
