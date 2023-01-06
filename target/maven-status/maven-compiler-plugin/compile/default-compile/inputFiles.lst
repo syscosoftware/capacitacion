@@ -1,7 +1,11 @@
-E:\SYSCO\capacitacion\spring-boot\capacitacion\src\main\java\cr\sysco\service\UsuarioService.java
-E:\SYSCO\capacitacion\spring-boot\capacitacion\src\main\java\cr\sysco\repository\RolRepository.java
-E:\SYSCO\capacitacion\spring-boot\capacitacion\src\main\java\cr\sysco\SpringBootJpaApplication.java
-E:\SYSCO\capacitacion\spring-boot\capacitacion\src\main\java\cr\sysco\repository\UsuarioRepository.java
-E:\SYSCO\capacitacion\spring-boot\capacitacion\src\main\java\cr\sysco\controller\UsuarioController.java
-E:\SYSCO\capacitacion\spring-boot\capacitacion\src\main\java\cr\sysco\model\Usuario.java
-E:\SYSCO\capacitacion\spring-boot\capacitacion\src\main\java\cr\sysco\model\Rol.java
+C:\Users\yulic\OneDrive\Escritorio\capacitacion 2\capacitacion\src\main\java\cr\sysco\model\Usuario.java
+C:\Users\yulic\OneDrive\Escritorio\capacitacion 2\capacitacion\src\main\java\cr\sysco\repository\ClienteRepository.java
+C:\Users\yulic\OneDrive\Escritorio\capacitacion 2\capacitacion\src\main\java\cr\sysco\SpringBootJpaApplication.java
+C:\Users\yulic\OneDrive\Escritorio\capacitacion 2\capacitacion\src\main\java\cr\sysco\controller\ClienteController.java
+C:\Users\yulic\OneDrive\Escritorio\capacitacion 2\capacitacion\src\main\java\cr\sysco\repository\UsuarioRepository.java
+C:\Users\yulic\OneDrive\Escritorio\capacitacion 2\capacitacion\src\main\java\cr\sysco\service\UsuarioService.java
+C:\Users\yulic\OneDrive\Escritorio\capacitacion 2\capacitacion\src\main\java\cr\sysco\model\Rol.java
+C:\Users\yulic\OneDrive\Escritorio\capacitacion 2\capacitacion\src\main\java\cr\sysco\service\ClienteService.java
+C:\Users\yulic\OneDrive\Escritorio\capacitacion 2\capacitacion\src\main\java\cr\sysco\controller\UsuarioController.java
+C:\Users\yulic\OneDrive\Escritorio\capacitacion 2\capacitacion\src\main\java\cr\sysco\model\Cliente.java
+C:\Users\yulic\OneDrive\Escritorio\capacitacion 2\capacitacion\src\main\java\cr\sysco\repository\RolRepository.java
